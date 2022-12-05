@@ -1,0 +1,46 @@
+.section--hero {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+
+  /* font-family: "Montserrat", sans-serif;
+
+  font-family: "Oswald", sans-serif;
+
+  font-family: "PT Sans", sans-serif;
+
+  font-family: "Roboto Mono", monospace; */
+}
+
+.hero--background {
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.section--hero__content {
+  border: 10px solid white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  color: white;
+  transition: all 200ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section--hero__content:hover {
+  border: 10px solid rgb(65, 170, 255);
+}
+
+.section--hero__content > .section--hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.section--hero__content > .section--hero__title > span {
+  color: rgb(65, 170, 255);
+  font-weight: 900;
+  font-size: 3.25rem;
+}
