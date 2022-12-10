@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0c0a00;
+  color: white;
+}
+
+.container {
+  border: 1px solid red;
+  max-width: 1500px;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.main .main__section {
+  border: 1px solid pink;
+  padding: 1.5rem 0rem;
+}
+
+.main .main__section .main__section--h1 {
+  font-size: 0.875rem;
+  display: inline-block;
+  transition: all 200ms ease-in;
+}
+
+.main .main__section .main__section--h1:hover {
+  color: rgb(44, 160, 255);
+  cursor: default;
+}
+
+@media (min-width: 576px) {
+  .container {
+    border: 1px solid yellow;
+    padding: 2.5rem;
+  }
+
+  .main .main__section .main__section--h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    border: 1px solid blue;
+    padding: 3.5rem;
+  }
+
+  .main .main__section .main__section--h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    border: 1px solid purple;
+  }
+
+  .main .main__section .main__section--h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    border: 1px solid orange;
+  }
+
+  .main .main__section .main__section--h1 {
+    font-size: 2.5rem;
+  }
+}
